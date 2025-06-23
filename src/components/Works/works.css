@@ -1,0 +1,88 @@
+/* General layout */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f0f0f;
+}
+
+.projects-section {
+  padding: 40px;
+  background-color: #0f0f0f;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.projects-section h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+/* Card styling */
+.project-card {
+  background-color: #1a1a1a;
+  border-radius: 15px;
+  padding: 25px;
+  position: relative;
+  border: 1px solid #2c2c2c;
+  transition: transform 0.2s ease;
+  overflow: hidden;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Top right color line */
+.project-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80px;
+  height: 4px;
+  border-top-right-radius: 15px;
+}
+
+/* Tech tag styling */
+.tech-tag {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 5px 12px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* View link styling */
+.view-link {
+  display: inline-block;
+  margin-top: 15px;
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.view-link:hover {
+  border-color: #ffffff;
+}
+
+/* Color variants */
+.green { background-color: #004d00; color: #aaffaa; }
+.pink { background-color: #4d0033; color: #ffb3d9; }
+.blue { background-color: #00264d; color: #99ccff; }
+.purple { background-color: #2e004d; color: #d5b3ff; }
+
+.border-green::before { background-color: #2ee889; }
+.border-pink::before { background-color: #e96adf; }
+.border-blue::before { background-color: #61b0ff; }
+.border-purple::before { background-color: #b38aff; }
