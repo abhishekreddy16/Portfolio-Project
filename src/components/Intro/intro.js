@@ -14,7 +14,7 @@ const Intro = () => {
                 <p className="introPara">I am a skilled web designer with experience in creating<br />visually appealing and user friendly websites.</p>
                 <div className="flex items-center gap-20 mt-4">
   <a
-    href="https://github.com/Extinction16"
+    href="https://github.com/abhishekreddy16"
     target="_blank"
     rel="noopener noreferrer"
     style={{ color: '#0078D4' }}
@@ -30,13 +30,14 @@ const Intro = () => {
   >
     <FaLinkedin size={40} />
   </a>
-  <a 
-  href="/resume.pdf" 
-  target="_blank" 
-  rel="noopener noreferrer" 
-  style={{ color: '#0078D4' }}
-  className="text-blue-500" > 
-  <FaRegFileAlt size={40} /> </a>
+  <a
+    href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:69053bfb-ceac-49b7-aa5b-2f59c20857ed"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{ color: '#0078D4' }}
+    className="text-blue-500"
+  >
+    <FaRegFileAlt size={40} /> </a>
 </div>
             </div>
             <img src={bg} alt="Profile" className="bg" />
