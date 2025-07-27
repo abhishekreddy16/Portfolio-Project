@@ -23,7 +23,7 @@ const Intro = () => {
   </a>
 
   <a
-    href="https://www.linkedin.com/in/your-profile"
+    href="https://www.linkedin.com/in/kundan-mutyala-222b0226a"
     target="_blank"
     rel="noopener noreferrer"
     style={{ color: '#0078D4' }}
